@@ -1,0 +1,80 @@
+SERVICE_list
+{
+	SERVICE
+	{
+		Type Internet
+		FREE_DATA 5
+		MONTHLY_PRICE 5
+		DISCOUNT 0.15
+		SERVICE_NAME "i1"
+		DATA_CHARGE 3
+	}
+	SERVICE
+	{
+		FREE_DATA 10
+		MONTHLY_PRICE 9
+		Type Internet
+		DISCOUNT 0.10
+		SERVICE_NAME "i2"
+		DATA_CHARGE 1
+	}
+	SERVICE
+	{
+		SERVICE_NAME "m1"
+		TYPE Mobile
+		DISCOUNT 0.20
+		MONTHLY_PRICE 30
+		FREE_MOBILE_MINUTES 60
+		FREE_SMS 100
+		COST_Mobile_Permin 1
+		Cost_Home_PerMIN 2
+		CosT_SmS 1
+	}
+	SERVICE
+	{
+		SERVICE_NAME "m2"
+		TYPE Mobile
+		DISCOUNT 0.25
+		MONTHLY_PRICE 15
+		FREE_MOBILE_MINUTES 600
+		FREE_SMS 200
+		COST_Mobile_Permin 2
+		Cost_Home_PerMIN 4
+		CosT_SmS 2
+	}
+	SERVICE
+	{
+		SERVICE_NAME "c1"
+		TYPE M_Card
+		DISCOUNT 0.25
+		MONTHLY_PRICE 10
+		
+		FREE_MOBILE_MINUTES 100
+		FREE_Home_MINUTES 500
+		FREE_SMS 200
+		CosT_Mobile_Permin 2
+		Cost_Home_PerMIN 1
+		CosT_SmS 3
+		
+		Balance 10
+	}
+	SERVICE
+	{
+		SERVICE_NAME "c2"
+		TYPE M_Card
+		DISCOUNT 0.3
+		MONTHLY_PRICE 5
+		
+		
+
+		FREE_MOBILE_MINUTES 1000
+		FREE_Home_MINUTES 900
+		FREE_SMS 500
+		CosT_Mobile_Permin 4
+		Cost_Home_PerMIN 2
+		CosT_SmS 1
+		
+		Balance 15
+	}
+}
+
